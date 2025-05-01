@@ -1,0 +1,50 @@
+.resume-container {
+    width: 100%;
+    height: 100vh;
+    padding: 40px;
+    box-sizing: border-box;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    page-break-after: always;
+  }
+  
+  .resume-content {
+    width: 100%;
+    max-width: 800px;
+    background: #fff;
+    color: #000;
+    font-size: 14px;
+  }
+  
+  .resume-content h1 {
+    font-size: 28px;
+    margin-bottom: 0;
+  }
+  
+  .resume-content section {
+    margin-top: 20px;
+  }
+  
+  .resume-content h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 5px;
+  }
+  
+  /* ResumeTemplate.css */
+
+.resume-container {
+    width: 794px;  /* A4 width in pixels at 96dpi */
+    height: 1123px; /* A4 height in pixels at 96dpi */
+    padding: 40px;
+    margin: auto;
+    background-color: white;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  
